@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->integer('is_admin')->unsigned()->default(0);
-            $table->
+            $table->json('settings')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

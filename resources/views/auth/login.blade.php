@@ -47,6 +47,7 @@
                                     </label>
                                 </div>
                             </div>
+
                         </div>
 
                         <div class="form-group">
@@ -58,6 +59,9 @@
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
                                     Forgot Your Password?
                                 </a>
+                                <a href="/auth/facebook">Connect with Facebook</a>
+                                <a href="/auth/twitter">Connect with Twitter</a>
+                                <a href="/auth/google">Connect with Google</a>
                             </div>
                         </div>
                     </form>
