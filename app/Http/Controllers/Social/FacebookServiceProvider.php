@@ -36,6 +36,7 @@ class FacebookServiceProvider extends AbstractServiceProvider
                 'facebook_id' => $user->id,
             ]
         ]);
-        return $this->login($newUser);
+       return var_dump($newUser);
+       // return $this->login($newUser);
     }
 }
